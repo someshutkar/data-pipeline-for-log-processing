@@ -1,0 +1,33 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:PutObject",
+                "s3:ListBucket"
+            ],
+            "Resource": [
+                "arn:aws:s3:::bucket_name_aws_account_id/*",
+                "arn:aws:s3:::processed-bucket_name_aws_account_id/*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "redshift-serverless:Get*",
+                "redshift:ExecuteStatement"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "glue:Get*",
+                "glue:CreateTable"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
