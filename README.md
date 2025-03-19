@@ -20,9 +20,6 @@ Process raw application logs into structured data for analytics while ensuring s
 - Optimized for hourly batch processing
 - Integrated with AWS services (S3, IAM, Redshift)
 
-## 🛠️ Architecture
-![Architecture Diagram](docs/architecture_diagram.jpg)
-
 ## 💻 Tech Stack
 - **Storage**: AWS S3
 - **Processing**: Databricks (PySpark)
