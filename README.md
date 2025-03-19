@@ -21,7 +21,7 @@ Process raw application logs into structured data for analytics while ensuring s
 - Integrated with AWS services (S3, IAM, Redshift)
 
 ## 🛠️ Architecture
-![Architecture Diagram](docs/architecture_diagram.png)
+![Architecture Diagram](docs/architecture_diagram.jpg)
 
 ## 💻 Tech Stack
 - **Storage**: AWS S3
